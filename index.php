@@ -14,7 +14,7 @@
 
 
     echo "test";
-   echo "test 2";
+   echo "test 3";
 
     while($row = mysqli_fetch_object($exec)){
         $res[] = [
