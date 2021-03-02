@@ -12,6 +12,10 @@
     //     ];
     // }
 
+
+    echo "test";
+   echo "test 1"; 
+
     while($row = mysqli_fetch_object($exec)){
         $res[] = [
             'id' => $row->id,
